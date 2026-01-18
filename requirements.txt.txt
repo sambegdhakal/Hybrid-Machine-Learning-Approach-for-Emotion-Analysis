@@ -1,0 +1,40 @@
+# Core Python utilities
+numpy>=1.21
+pandas>=1.4
+scipy>=1.7
+os-sys
+pickle5; python_version < "3.8"
+
+# Machine Learning & Deep Learning
+tensorflow>=2.10
+keras>=2.10
+torch>=1.12
+scikit-learn>=1.1
+imbalanced-learn>=0.9
+
+# Hyperparameter tuning
+keras-tuner>=1.3
+
+# NLP
+nltk>=3.7
+spacy>=3.5
+transformers>=4.30
+contractions>=0.1.73
+wordninja>=2.0.0
+emoji>=2.2.0
+
+# Data handling / Excel
+openpyxl>=3.1
+
+# Visualization
+matplotlib>=3.6
+
+# Geo / Spatial (used in preprocessing & analysis)
+geopandas>=0.12
+shapely>=2.0
+
+# Deep learning utilities
+faiss-cpu>=1.7.4
+
+# HTTP / API access
+requests>=2.28
